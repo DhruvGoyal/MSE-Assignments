@@ -54,7 +54,6 @@ int main(int argc, const char* argv[])
 	NSDate *earliestDate = nil;
 	for(id entry in dates)
 	{
-		//NSLog(entry);
 		if(earliestDate == nil)
 		{
 			earliestDate = entry;
