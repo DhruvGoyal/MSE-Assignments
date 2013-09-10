@@ -39,7 +39,7 @@ int main(int argc, const char* argv[])
 	NSDate *lastThursday = [[NSDate date] addTimeInterval:-interval];
    NSLog(@"Last Thursday's date: %@",lastThursday);
 
-	//finding earlies date among a given set of dates
+	//finding earliest date among a given set of dates
 	int i=0;
 	interval = 24*3600; 
 	NSDate *d = nil;
@@ -67,7 +67,7 @@ int main(int argc, const char* argv[])
 	NSLog(@"The earliest date among the above given dates: %@", earliestDate);
 
 
-	//findinf tenth day of the month given the first day
+	//finding tenth day of the month given the first day
 	id firstDayOfMonth = [NSNumber numberWithInteger:3];
 	int tenthDay = ([firstDayOfMonth intValue]+2)%7;
 	id tenthDayOfMonth = [NSNumber numberWithInteger:tenthDay];
