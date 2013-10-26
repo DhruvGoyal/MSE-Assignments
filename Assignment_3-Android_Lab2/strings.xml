@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FirstApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="label">Welcome! </string>
+    <string name="msg">Dhruv here! </string>
+    <string name="ok">Click button</string>
+    <string name="Button2">Another Click button</string>
+    <string name="to">Welcome!</string>
+    <string name="subject">Dhruv here! </string>
+    <string name="message">Click button</string>
+    
+</resources>
